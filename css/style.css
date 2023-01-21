@@ -2263,6 +2263,18 @@ body::after {
             align-items: stretch;
   }
 
+  .slide-main-block__content {
+    -webkit-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+
+  .slide-main-block__image-ibg {
+    -webkit-transform: translate(0px, 0px) rotate(0) scale(0) skew(0, 0);
+        -ms-transform: translate(0px, 0px) rotate(0) scale(0) skew(0, 0);
+            transform: translate(0px, 0px) rotate(0) scale(0) skew(0, 0);
+  }
+
   .swiper-pagination-bullets {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
